@@ -5,10 +5,12 @@ exports.config = {
   // The address of a running selenium server.
   //seleniumAddress: 'http://localhost:4444/wd/hub',
   //seleniumServerJar: deprecated, this should be set on node_modules/protractor/config.json
-
+  //waka waka 
+  
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    'browserName': 'firefox'
   },
 
   baseUrl: 'http://localhost:3000',
@@ -18,7 +20,7 @@ exports.config = {
   specs: ['test/protractor/**/*.js'],
 };
 
-//hello world
-//this is a comment
+//hello paulo, worxld! waka waka
+//this is a comment, to add lines
 
 //another comment
