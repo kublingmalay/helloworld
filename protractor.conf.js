@@ -17,3 +17,8 @@ exports.config = {
   // protractor is called.
   specs: ['test/protractor/**/*.js'],
 };
+
+//hello world
+//this is a comment
+
+//another comment
