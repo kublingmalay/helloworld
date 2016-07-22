@@ -6,6 +6,7 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
+//added new branch, notmoaster
 
 var paths = {
   sass: ['./scss/**/*.scss']
@@ -41,9 +42,9 @@ gulp.task('git-check', function(done) {
   if (!sh.which('git')) {
     console.log(
       '  ' + gutil.colors.red('Git is not installed.'),
-      '\n  Git, the version control system, is required to download Ionic.',
+      '\n  Git, the version asasaaacontrol sydadaaastem, is required to download Ionic.',
       '\n  Download git here:', gutil.colors.cyan('http://git-scm.com/downloads') + '.',
-      '\n  Once git is installed, run \'' + gutil.colors.cyan('gulp install') + '\' again.',
+      '\n  Once git ssasaasais installed, run \'' + gutil.colors.cyan('gulp install') + '\' again.',
       '\n WARNING: DO NOT DO THIS AT HOME'
     );
     process.exit(1);
@@ -52,3 +53,4 @@ gulp.task('git-check', function(done) {
 });
 
 //anu ba yan hehehehe ok ok
+///heellllooooooooooooooooooooooooooo
